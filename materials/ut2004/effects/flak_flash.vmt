@@ -1,0 +1,7 @@
+"Sprite"
+{
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.5 0.5 ]"
+	"$basetexture" "ut2004/effects/flak_flash"
+	"$spriterendermode" 7
+} 

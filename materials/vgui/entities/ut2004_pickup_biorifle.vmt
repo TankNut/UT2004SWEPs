@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/ut2004_pickup_biorifle"
+	"$vertexcolor" 1 
+	"$vertexalpha" 1 
+	"$nolod" 1 
+}

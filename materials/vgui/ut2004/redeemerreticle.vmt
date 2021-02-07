@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/ut2004/RedeemerReticle"
+	"$translucent" 1
+}

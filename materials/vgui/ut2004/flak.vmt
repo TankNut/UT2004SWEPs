@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/ut2004/flak"
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
+	"$additive" "1"
+	"$nolod" 1
+}

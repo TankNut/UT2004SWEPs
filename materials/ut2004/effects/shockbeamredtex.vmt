@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/ShockBeamRedTex"
+	"$additive" 1
+}

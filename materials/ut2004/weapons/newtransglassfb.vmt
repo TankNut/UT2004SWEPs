@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/weapons/NEWtranslocatorGlass"
+	"$translucent" 1
+}

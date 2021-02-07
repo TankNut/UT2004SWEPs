@@ -1,0 +1,9 @@
+"Sprite"
+{
+	"$basetexture" "ut2004/effects/RocketFlare"
+	"$spriteorientation" "vp_parallel"
+	"$spriteorigin" "[ 0.50 0.50 ]"
+	"$translucent" 1
+	"$additive" 1
+	"$spriterendermode" 9
+}

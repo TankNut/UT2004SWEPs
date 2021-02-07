@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/PickupLines2"
+	"$additive" 1
+	"$color" "[0.75 0.7 0.4]"
+}

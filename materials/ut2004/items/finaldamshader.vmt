@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/items/Dam_Env"
+	"$detail" "ut2004/items/Panskin"
+	"$detailscale" 1
+	"$detailblendmode" 5
+	
+	"$envmap" "ut2004/items/Dam_Env"
+	"$envmaptint" "[0.25 0.25 0.25]"
+	"$multipass" 1
+	
+	"$selfillum" 1
+	
+	"$translate" "[0 0]"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+		"rate" 0.5
+		"initialValue" 0.0
+		"resultVar" "$translate[1]"
+		}
+
+		"TextureTransform"
+		{
+		"translateVar" "$translate"
+		"centerVar" "$center"
+		"resultVar" "$detailtexturetransform"
+		}
+	}
+}

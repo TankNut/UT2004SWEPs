@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/projectiles/RDMR_Missile"
+	"$envmap" "env_cubemap"
+}

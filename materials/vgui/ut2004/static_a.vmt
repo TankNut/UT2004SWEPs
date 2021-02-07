@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/ut2004/static_a"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedTextureVar" "$basetexture"
+			"animatedTextureFrameNumVar" "$frame"
+			"animatedTextureFrameRate" "30"
+		}
+	}
+}

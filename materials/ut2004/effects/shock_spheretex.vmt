@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/HotBolt01aw"
+	"$translucent" 1
+	"$color2" "[0.5 0.75 1.0]"
+} 

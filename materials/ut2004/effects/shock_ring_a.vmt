@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/Shock_ring_a"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/BurnFlare1"
+	"$additive" 1
+	"$vertexcolor" 1
+}

@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/items/BlueDot"
+	"$envmap" "env_cubemap"
+	//"$envmaptint" "[0.25 0.25 0.25]"
+	"$translucent" 1
+}

@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/PlayerTeleOverlay"
+	"$additive" 1
+	//"$vertexalpha" 1
+	//"$vertexcolor" 1
+	
+	"$translate" "[0 0]"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+		"rate" 0.75
+		"initialValue" 0.0
+		"resultVar" "$translate"
+		}
+
+		"TextureTransform"
+		{
+		"translateVar" "$translate"
+		"centerVar" "$center"
+		"resultVar" "$basetexturetransform"
+		}
+	}
+}

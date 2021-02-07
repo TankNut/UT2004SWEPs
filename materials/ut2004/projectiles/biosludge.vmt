@@ -1,0 +1,53 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/projectiles/SlimeSkin"
+	"$translucent" "1"
+	//"$additive" 1
+	
+	"$detail" "ut2004/projectiles/goop_green_a"
+	"$detailblendfactor" 1
+	
+	"$translate" "[0 0]"
+	"$translate2" "[0 0]"
+	"$center" "[0.5 0.5]"
+	"$scale" "[1 1]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 0.1
+			"initialValue" 0.0
+			"resultVar" "$translate[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" 16
+			"sinemin" 0
+			"sinemax" 0.5
+			"resultVar" "$translate2[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" 8
+			"sinemin" 0
+			"sinemax" 0.5
+			"resultVar" "$translate2[1]"
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"centerVar" "$center"
+			"scaleVar" "$scale"
+			"resultVar" "$detailtexturetransform"
+		}
+		"TextureTransform"
+		{
+			"translateVar" "$translate2"
+			"centerVar" "$center"
+			"scaleVar" "$scale"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

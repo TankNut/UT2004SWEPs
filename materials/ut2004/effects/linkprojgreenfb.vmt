@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/link_muz_green"
+	"$additive" 1
+	"$nocull" 1
+}

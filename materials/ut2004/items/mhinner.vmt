@@ -1,0 +1,38 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/items/MHInner2"
+	"$detail" "ut2004/items/MHBubbles"
+	"$detailscale" 1
+	"$detailblendmode" 5
+	
+	"$translucent" 1
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.5 1.0]"
+	
+	"$translate" "[0 0]"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+		"rate" 1
+		"initialValue" 0.0
+		"resultVar" "$translate[1]"
+		}
+		"LinearRamp"
+		{
+		"rate" -0.5
+		"initialValue" 0.0
+		"resultVar" "$translate[0]"
+		}
+
+		"TextureTransform"
+		{
+		"translateVar" "$translate"
+		"centerVar" "$center"
+		"resultVar" "$detailtexturetransform"
+		}
+	}
+}

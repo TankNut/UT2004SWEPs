@@ -1,0 +1,42 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/Shock_Elec_a"
+	//"$translucent" 1
+	"$additive" 1
+	
+	"$detail" "ut2004/effects/Shock_Elec_mask"
+	"$detailscale" 1
+	
+	"$vertexalpha" 1
+	
+	"$translate" "[0 0]"
+	"$scale" "[1 1]"
+	"$rotate" "0"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 0.75
+			"initialValue" 0.0
+			"resultVar" "$translate"
+		}
+		"Sine"
+		{
+			"resultVar" "$scale"
+			"sineperiod"	1.5
+			"sinemin" 0.5
+			"sinemax" 1
+		}
+
+		"TextureTransform"
+		{
+			"translateVar" "$translate"
+			"scaleVar" "$scale"
+			"rotateVar" "$rotate"
+			"centerVar" "$center"
+			"resultVar" "$basetexturetransform"
+		}
+	}
+}

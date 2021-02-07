@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/weapons/BioRifleGlass0"
+	"$translucent" 1
+}

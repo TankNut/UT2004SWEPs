@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/weapons/FatLinkGunTex0"
+	//"$selfillum" 1
+	"$detail" "ut2004/weapons/LinkPowerGreen"
+	"$detailscale" "1"
+	"$detailblendmode" "4"
+	
+	"$translate" "[0 0]"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+		"rate" 0.2
+		"initialValue" 0.0
+		"resultVar" "$translate"
+		}
+
+		"TextureTransform"
+		{
+		"translateVar" "$translate"
+		"centerVar" "$center"
+		"resultVar" "$detailtexturetransform"
+		}
+	}
+}

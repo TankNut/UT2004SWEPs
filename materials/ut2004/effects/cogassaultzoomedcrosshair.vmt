@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/CogAssaultZoomedCrosshair"
+	"$translucent" 1
+	"$vertexalpha" 1
+}

@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/items/FlameGradient"
+	//"$detail" "ut2004/items/FlameGradient"
+	//"$detailblendfactor" 0.75
+	//"$detailscale" "1.0"
+	
+	"$envmap" "ut2004/items/FlameGradient"
+	"$envmaptint" "[0.25 0.25 0.25]"
+	"$multipass" 1
+}

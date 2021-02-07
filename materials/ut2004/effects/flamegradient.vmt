@@ -1,0 +1,28 @@
+"UnlitGeneric"
+{
+	"$basetexture" "ut2004/effects/FlameGradient"
+	"$model" 1
+	//"$translucent" 1
+	"$additive" 1
+	//"$color" "[0.8 0.8 0.8]"
+	
+	"$translate" "[0 0]"
+	"$center" "[0.5 0.5]"
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+		"rate" 0.5
+		"initialValue" 0.0
+		"resultVar" "$translate"
+		}
+
+		"TextureTransform"
+		{
+		"translateVar" "$translate"
+		"centerVar" "$center"
+		"resultVar" "$basetexturetransform"
+		}
+	}
+}

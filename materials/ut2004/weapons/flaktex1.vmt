@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "ut2004/weapons/FlakTex1"
+	"$alphatest" 1
+	"$translucent" 1
+}
