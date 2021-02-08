@@ -8,7 +8,7 @@ SWEP.Spawnable				= true
 SWEP.Category 				= "Unreal Tournament 2004(New)"
 
 if CLIENT then
-	SWEP.WepSelectIcon			= surface.GetTextureID("vgui/ut2004/assault")
+	SWEP.WepSelectIcon		= surface.GetTextureID("vgui/ut2004/assault")
 end
 
 SWEP.ViewModelFOV			= 70
@@ -51,7 +51,7 @@ function SWEP:Deploy()
 		self:CreateSecondVM()
 	end
 
-	BaseClass.Deploy(self)
+	return BaseClass.Deploy(self)
 end
 
 function SWEP:Holster(weapon)
@@ -90,6 +90,7 @@ function SWEP:PrimaryAttack()
 
 	local bullet = {}
 
+	bullet.Attacker = ply
 	bullet.Num = 1
 	bullet.Src = ply:GetShootPos()
 	bullet.Dir = ply:GetAimVector()
@@ -144,7 +145,7 @@ function SWEP:Think()
 			local phys = ent:GetPhysicsObject()
 
 			if IsValid(phys) then
-				phys:SetVelocity(ply:GetAimVector() * force)
+				phys:SetVelocity(ply:GetAimVector() * force + Vector(0, 0, 128))
 				phys:AddAngleVelocity(Vector(300, math.random(-600, 600), 0))
 			end
 		end

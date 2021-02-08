@@ -44,6 +44,8 @@ function SWEP:Deploy()
 	end
 
 	self:SetDeployAnimation()
+
+	return true
 end
 
 function SWEP:SetDeployAnimation()
