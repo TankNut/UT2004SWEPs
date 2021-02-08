@@ -124,8 +124,8 @@ function SWEP:Think()
 
 			self:SetNextIdle(CurTime() + self.WindUp)
 
-			self:SetNextPrimaryFire(CurTime() + self.WindUp)
-			self:SetNextSecondaryFire(CurTime() + self.WindUp)
+			self:SetNextPrimaryFire(CurTime())
+			self:SetNextSecondaryFire(CurTime())
 
 			return
 		end
