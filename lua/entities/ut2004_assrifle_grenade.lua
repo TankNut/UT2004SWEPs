@@ -70,7 +70,6 @@ if SERVER then
 
 			if IsValid(phys) then
 				phys:SetMaterial("metal")
-				phys:SetVelocity(vector_origin)
 			end
 
 			self.VelocityKilled = true
