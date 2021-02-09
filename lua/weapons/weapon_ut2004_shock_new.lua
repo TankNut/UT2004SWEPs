@@ -11,7 +11,7 @@ if CLIENT then
 	SWEP.WepSelectIcon		= surface.GetTextureID("vgui/ut2004/shockrifle")
 end
 
-SWEP.ViewModelFOV			= 70
+SWEP.ViewModelFOV			= 60
 
 SWEP.ViewModel				= Model("models/ut2004/weapons/v_shock.mdl")
 SWEP.WorldModel				= Model("models/ut2004/weapons/w_shock.mdl")
@@ -99,7 +99,7 @@ function SWEP:SecondaryAttack()
 		ent:Activate()
 
 		ent.Player = ply
-		ent:SetExireTimer(10)
+		ent:SetExpireTimer(10)
 
 		local phys = ent:GetPhysicsObject()
 
