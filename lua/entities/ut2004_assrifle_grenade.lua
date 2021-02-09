@@ -11,6 +11,7 @@ ENT.Radius 	= 150
 ENT.ExplodeSound = Sound("ut2004/weaponsounds/BExplosion3.wav")
 
 PrecacheParticleSystem("ut2004_flak_smoketrail")
+PrecacheParticleSystem("ut2004_flak_explosion1")
 
 function ENT:Initialize()
 	self:SetModel(self.Model)
