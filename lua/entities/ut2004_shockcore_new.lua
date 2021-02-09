@@ -42,7 +42,7 @@ if CLIENT then
 	function ENT:Draw()
 	end
 else
-	function ENT:SetExireTimer(time)
+	function ENT:SetExpireTimer(time)
 		self.ExpireTimer = CurTime() + time
 	end
 
