@@ -169,6 +169,8 @@ end
 function SWEP:GiveSecondWeapon()
 	self:CallOnClient("GiveSecondWeapon")
 
+	self:EmitSound(self.DeploySound)
+
 	self:SetHoldType("duel")
 	self:SetModel(self.DualWorldModel)
 
