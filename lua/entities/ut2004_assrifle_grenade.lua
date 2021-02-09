@@ -80,10 +80,16 @@ if SERVER then
 			self:Explode()
 		end
 
+		if self.NoOwner and IsValid(self:GetOwner()) then
+			self:SetOwner()
+		end
+
 		return true
 	end
 
 	function ENT:PhysicsCollide(data)
+		self.NoOwner = true
+
 		if data.HitEntity:IsPlayer() or data.HitEntity:IsNPC() then
 			self:Explode()
 
