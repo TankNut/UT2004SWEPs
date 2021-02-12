@@ -10,6 +10,9 @@ ENT.Damage 		= 90
 
 ENT.Count 		= 6
 
+PrecacheParticleSystem("ut2004_flak_smoketrail")
+PrecacheParticleSystem("ut2004_flak_explosion")
+
 function ENT:Initialize()
 	self:SetModel(self.Model)
 
@@ -109,7 +112,7 @@ else
 
 		self:EmitSound("ut2004/weaponsounds/BExplosion1.wav", 100, 100)
 
-		ParticleEffect( "ut2004_flak_explosion", pos, self:GetAngles())
+		ParticleEffect("ut2004_flak_explosion", pos, self:GetAngles())
 
 		local ed = EffectData()
 

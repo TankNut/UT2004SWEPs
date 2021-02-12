@@ -142,3 +142,7 @@ else
 		end
 	end
 end
+
+function ENT:DoImpactEffect()
+	return true
+end
